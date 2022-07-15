@@ -1,4 +1,4 @@
-read bdy
+read -p "enter birthdate "bdy
 bmon=${bdy:0:2}
 bday=${bdy:3:2}
 byear=${bdy:6:4}
